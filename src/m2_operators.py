@@ -21,7 +21,30 @@ t2 = "cat"
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def equal(var1,var2):
+    print(var1==var2)
 
+def not_equal(var1,var2):
+    print(var1 != var2)
+
+def greater_than(var1,var2):
+    print(var1>var2)
+
+def less_than(var1,var2):
+    print(var1<var2)
+
+def greater_than_or_equal_to(var1,var2):
+    print(var1>=var2)
+
+def less_than_or_equal_to(var1,var2):
+    print(var1<=var2)
+
+equal(1,1)
+not_equal(1,2)
+greater_than(2,1)
+less_than(1,2)
+greater_than_or_equal_to(1,1)
+less_than_or_equal_to(1,1)
 ###############################################################################
 # TODO: 2. (2 pts)
 #

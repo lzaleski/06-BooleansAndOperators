@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #
 #   Consider each of the objects below. Before writing any code, predicter
 #   whether each one evaluates to True or False.
@@ -23,3 +23,4 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(bool(5),bool("False"),bool("True"),bool(""),bool(0),bool(-1),bool(False),bool(True),bool(2.0),bool(7>4),bool(5 == 4),bool(3>4))
