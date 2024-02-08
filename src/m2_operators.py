@@ -3,7 +3,7 @@ t1 = "fox"
 t2 = "cat"
 
 ###############################################################################
-# TODO: 1. (6 pts)
+# DONE: 1. (6 pts)
 #
 #   Write each of the functions below (each that takes two parameters and uses
 #   the appropriate operator from the reading) that simply returns the boolean
@@ -22,22 +22,22 @@ t2 = "cat"
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 def equal(var1,var2):
-    print(var1==var2)
+    return(var1==var2)
 
 def not_equal(var1,var2):
-    print(var1 != var2)
+    return var1 != var2
 
 def greater_than(var1,var2):
-    print(var1>var2)
+    return var1>var2
 
 def less_than(var1,var2):
-    print(var1<var2)
+    return var1<var2
 
 def greater_than_or_equal_to(var1,var2):
-    print(var1>=var2)
+    return var1>=var2
 
 def less_than_or_equal_to(var1,var2):
-    print(var1<=var2)
+    return var1<=var2
 
 equal(1,1)
 not_equal(1,2)
