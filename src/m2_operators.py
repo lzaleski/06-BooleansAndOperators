@@ -46,7 +46,7 @@ less_than(1,2)
 greater_than_or_equal_to(1,1)
 less_than_or_equal_to(1,1)
 ###############################################################################
-# TODO: 2. (2 pts)
+# DONE: 2. (2 pts)
 #
 #   Write a line of code that returns True if the string
 #       t1 (defined above)
@@ -64,9 +64,13 @@ less_than_or_equal_to(1,1)
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+if t1 in txt:
+    print(True, "t1 in txt")
+if t2 in txt:
+    print(True, "t2 in txt")
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #
 #   Now, write a line of code that returns True if the string
 #       t1
@@ -76,3 +80,6 @@ less_than_or_equal_to(1,1)
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+    
+if t1 not in txt: print(True, "t1 not in txt")
+if t2 not in txt: print(True, "t2 not in txt")
